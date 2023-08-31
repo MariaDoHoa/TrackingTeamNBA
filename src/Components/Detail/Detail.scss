@@ -1,0 +1,40 @@
+.Detail {
+    margin-top: 20px;
+    width: 350px;
+    border: 1px solid gray;
+    padding: 10px;
+    background-color: rgb(209, 209, 209);
+
+    h2 {
+        padding-top: 20px;
+    }
+
+    >p {
+        padding: 20px 0px;
+        font-size: 20px;
+    }
+
+    div {
+        padding: 10px 0px;
+
+        p {
+            font-weight: bold;
+
+            span {
+                color: red;
+            }
+        }
+    }
+
+    h4 {
+        font-size: 20px;
+        padding-top: 20px;
+    }
+
+    button {
+        padding: 10px;
+        border: unset;
+        background-color: green;
+        color: white;
+    }
+}

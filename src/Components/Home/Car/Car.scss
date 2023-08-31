@@ -1,0 +1,61 @@
+.Car {
+    margin-top: 20px;
+    width: 350px;
+    border: 1px solid gray;
+    padding: 10px;
+    background-color: rgb(209, 209, 209);
+
+    h2 {
+        padding-top: 20px;
+    }
+
+    >p {
+        padding: 20px 0px;
+        font-size: 20px;
+    }
+
+    .result {
+        padding-top: 20px;
+
+        >div {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .content {
+                width: 50%;
+
+                h4 {
+                    padding-bottom: 20px;
+                    font-size: 18px;
+                    font-weight: unset;
+                }
+
+                span {
+                    border-radius: 50px;
+                    color: white;
+                    padding: 5px;
+                    line-height: 30px;
+                    margin: 1px;
+                }
+            }
+
+            .img {
+                width: 50%;
+
+                img {
+                    width: 100%;
+                }
+            }
+        }
+
+
+    }
+
+    button {
+        padding: 10px;
+        border: unset;
+        background-color: green;
+        color: white;
+    }
+}
